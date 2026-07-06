@@ -92,23 +92,21 @@ export default function Hero() {
         </div>
 
         <div className="hero__visual animate-on-scroll">
-          <div className="hero__avatar-wrapper">
-            <div className="hero__avatar">
-              <img src="/mypic.jfif" alt="Mohammed Saathir" className="hero__avatar-img" />
-            </div>
-            <div className="hero__ring hero__ring--1" />
-            <div className="hero__ring hero__ring--2" />
-            <div className="hero__ring hero__ring--3" />
+          <div className="hero__image-frame">
+            <div className="hero__image-glow" />
+            <div className="hero__image-border" />
+            <img src="/mypic.jfif" alt="Mohammed Saathir" className="hero__profile-img" />
+            <div className="hero__image-shine" />
           </div>
-          <div className="hero__badge hero__badge--1">
+          <div className="hero__floating-badge hero__floating-badge--1">
             <span className="hero__badge-dot" style={{ background: 'var(--accent-cyan)' }} />
             Web Development
           </div>
-          <div className="hero__badge hero__badge--2">
+          <div className="hero__floating-badge hero__floating-badge--2">
             <span className="hero__badge-dot" style={{ background: 'var(--accent-purple)' }} />
             UI/UX Design
           </div>
-          <div className="hero__badge hero__badge--3">
+          <div className="hero__floating-badge hero__floating-badge--3">
             <span className="hero__badge-dot" style={{ background: 'var(--accent-green)' }} />
             Graphic Design
           </div>
